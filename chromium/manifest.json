@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "SafeSearch Lock",
   "version": "1.0.0",
-  "description": "Enforce SafeSearch on supported search engines",
+  "description": "Extension for locking safesearch feature on popular search engines, including Google, Bing and DuckDuckGo",
 
   "homepage_url": "https://github.com/arfshl/safesearch-lock",
 
