@@ -1,0 +1,57 @@
+name: Build Dev
+
+on:
+  workflow_dispatch:
+
+  push:
+    paths:
+      - 'chromium/**'
+      - 'firefox/**'
+      - '*.js'
+      - '*.json'
+      - '*.html'
+      - '_locales/**'
+      - 'icons/**'
+      - 'src/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build-dev:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Select build ref
+        id: ref
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "ref=$(git tag --sort=-v:refname | head -n 1)" >> "$GITHUB_OUTPUT"
+          else
+            echo "ref=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout selected ref
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.ref.outputs.ref }}
+
+      - name: Build extension
+        run: bash build.sh
+
+      - name: Upload Chromium build
+        uses: actions/upload-artifact@v7
+        with:
+          name: safesearch-lock-chromium
+          path: safesearch-lock-chromium.zip
+
+      - name: Upload Firefox build
+        uses: actions/upload-artifact@v7
+        with:
+          name: safesearch-lock-firefox
+          path: safesearch-lock-firefox.zip
