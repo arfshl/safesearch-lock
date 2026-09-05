@@ -4,8 +4,8 @@ Chromium and Firefox extension for locking safesearch feature on popular search 
 -----
 
 <p align="center">
-<a href="https://addons.mozilla.org/addon/safesearch-lock/"><img src="./assets/amo.png" alt="Firefox"></a>
-<a href="https://microsoftedge.microsoft.com/addons/detail/igfjbkihgkbnnmhdbhhgpodpamfjdaki"><img src="./assets/msedge.png" alt="Microsoft Edge"></a>
+<a href="https://addons.mozilla.org/addon/safesearch-lock/" target="_blank"><img src="./assets/amo.png" alt="Firefox"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/igfjbkihgkbnnmhdbhhgpodpamfjdaki" target="_blank"><img src="./assets/msedge.png" alt="Microsoft Edge"></a>
 <a href=""><img src="./assets/opera.png" alt="Opera"></a>
 </p>
 
