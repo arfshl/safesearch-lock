@@ -10,15 +10,3 @@ updates:
       github-actions-updates:
         patterns:
           - "*" # Groups all action updates into one PR
-
-  
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly" 
-    assignees:
-      - "arfshl"
-    groups:
-      npm-updates:       
-        patterns:
-          - "*" 
