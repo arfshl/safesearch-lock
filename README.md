@@ -4,7 +4,7 @@ Chromium and Firefox extension for locking safesearch feature on popular search 
 -----
 
 <p align="center">
-<a href=""><img src="https://developer.chrome.com/static/docs/webstore/branding/image/UV4C4ybeBTsZt43U4xis.png" alt="Firefox"></a>
+<a href="https://chrome.google.com/webstore/detail/lbalficemhpnfbgifnidmhmephnlgonb"><img src="https://developer.chrome.com/static/docs/webstore/branding/image/UV4C4ybeBTsZt43U4xis.png" alt="Firefox"></a>
 <a href="https://addons.mozilla.org/addon/safesearch-lock/"><img src="https://blog.mozilla.org/addons/files/2015/11/get-the-addon.png" alt="Firefox"></a>
 <a href="https://microsoftedge.microsoft.com/addons/detail/igfjbkihgkbnnmhdbhhgpodpamfjdaki"><img src="https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/add-ons-badge-images/microsoft-edge-add-ons-badge.png" alt="Microsoft Edge"></a>
 </p>
@@ -42,7 +42,7 @@ Chromium and Firefox extension for locking safesearch feature on popular search 
 
 # Installation
 
-1. Chromium-based Browser (Google Chrome, Opera, Brave, Vivaldi, Arc, etc.) - [Chrome Web Store]()
+1. Chromium-based Browser (Google Chrome, Opera, Brave, Vivaldi, Arc, etc.) - [Chrome Web Store](https://chrome.google.com/webstore/detail/lbalficemhpnfbgifnidmhmephnlgonb)
 2. Firefox - [Mozilla Add-ons](https://addons.mozilla.org/addon/safesearch-lock-for-youtube/)
 3. Microsoft Edge - [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/igfjbkihgkbnnmhdbhhgpodpamfjdaki)
 4. GitHub Releases - [Download from releases](https://github.com/arfshl/safesearch-lock/releases/latest), enable "Developer Mode" options, and install from "Load Unpacked" options
